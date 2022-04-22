@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    
+}
+
+h1 {
+    margin-bottom: 20px;
+    padding-top: 1px; 
+}
+
+ul {
+    display: inline-flex;
+    color: white;
+}
+
+li {
+    list-style: none;
+    padding-right: 10px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+nav {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(250, 193, 202);
+}
+main {
+    min-height: 100vh;
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+p {
+ font-size:x-large;
+ padding-bottom: 50px;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    margin-right: 30px;
+    font-size: x-large;
+}
+
+header, footer {
+    min-width: 100px;
+    background-color: rgb(250, 193, 202);
+    text-align: center;
+}
+
+header {
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+button {
+    border: none;
+    border-radius: 40px;
+    text-align: center;
+    color: white;
+    background-color: rgb(250, 193, 202);
+    padding: 10px 30px;
+    font-family: 'Times New Roman', Times, serif;
+    transition: 0.40s;
+}
+
+.navbar-btn{
+    transition: .8s;
+}
+
+button:hover .navbar-btn {
+    background-color: white;
+    color: rgb(250, 193, 202);
+    transition: 00.40s ease-in-out;
+    z-index: 1;
+    padding: 10px 30px;
+    border-radius: 40px;
+}
+
+footer {
+   padding: 10px;
+   border-top-left-radius:  20px;
+   border-top-right-radius: 20px; 
+}
+
+#aboutimg {
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+#img1 {
+    border-radius: 20px;
+    height: 1000px;
+    width: 700px
+}
+
+#img2 {
+    border-radius: 20px;
+    height: 1000px;
+    width: 700px;
+}
+
+#emailadress {
+    /* background-color: brown; */
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    border-radius: 20px;
+    border-style: none;
+    height: 30px;
+    width: 250px;
+    background-color: rgb(250, 193, 202);
+    padding-left: 30px;
+}
+
+#emailmessage {
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: center;
+}
+
+textarea {
+    border-radius: 20px;
+    border-style: none;
+    resize: none;
+    height: 60px;
+    width: 400px;
+    background-color: rgb(250, 193, 202);
+}
+
+#emailbtn {
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+#contactmain {
+    /* background-color: blue; */
+    min-height: 70vh;
+}
+
+form {
+    /* background-color: orange; */
+    padding-top: 10px;
+}
+
+#contactheading {
+    /* background-color: red; */
+    padding-top: 20px;
+}
